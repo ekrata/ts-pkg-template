@@ -1,6 +1,6 @@
 
 # sst
-.*
+.DS_Store
 .sst
 .turbo
 node_modules
@@ -9,3 +9,4 @@ services/*
 services
 dist
 dist/*
+.DS_Store

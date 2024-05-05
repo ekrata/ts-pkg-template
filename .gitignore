@@ -10,3 +10,8 @@ services
 dist
 dist/*
 .DS_Store
+.env.local
+.env.prod
+.env.staging
+.env.*
+!.env.example

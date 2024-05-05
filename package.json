@@ -18,10 +18,10 @@
     "typescript": "^5.4.5"
   },
   "lint-staged": {
-    "*.{js, jsx,ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint --quiet --fix"
     ],
-    "*.{js,ts, tsx}": [
+    "*.{js,ts,tsx}": [
       "vitest related --run"
     ],
     "*.{json,js,ts,jsx,tsx,html}": [

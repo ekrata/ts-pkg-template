@@ -29,5 +29,5 @@ jobs:
         run: npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
-      - name: Test
-        run: npm run test
+      - name: Run tests
+        run: npx vitest --run

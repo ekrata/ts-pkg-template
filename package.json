@@ -21,6 +21,9 @@
     "*.{js, jsx,ts,tsx}": [
       "eslint --quiet --fix"
     ],
+    "*.{js,ts, tsx}": [
+      "vitest related --run"
+    ],
     "*.{json,js,ts,jsx,tsx,html}": [
       "prettier --write --ignore-unknown"
     ]

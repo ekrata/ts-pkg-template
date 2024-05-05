@@ -19,6 +19,12 @@
     "tsx": "^4.9.1",
     "typescript": "^5.4.5"
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --max-warnings 0 ."
+    ]
+  },
   "exports": {
     "require": {
       "types": "./dist/index.d.cts",

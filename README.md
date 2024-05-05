@@ -1,4 +1,4 @@
-# Typescript Node Package Template (husky, lint-staged, prettier, eslint, commititzen, changelog)
+# Typescript Node Package Template (husky, lint-staged, prettier, eslint, commititzen, changelog, vitest)
 
 ### Turborepo is optional
 

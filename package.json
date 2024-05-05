@@ -23,7 +23,8 @@
     "*.{ts,tsx}": [
       "prettier --write",
       "eslint --max-warnings 0 ."
-    ]
+    ],
+    "*.{*}": []
   },
   "exports": {
     "require": {

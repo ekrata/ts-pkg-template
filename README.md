@@ -1,5 +1,7 @@
 # Typescript Node Package Template (husky, lint-staged, prettier, eslint, commititzen, changelog)
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ### Turborepo is optional
 
 ## Setup
@@ -9,8 +11,8 @@ npm i
 npx husky-init
 brew install pre-commit
 pre-commit install
-npm install commitizen -g
-commitizen init cz-conventional-changelog --save-dev --save-exact
+brew install commitzen
+
 ```
 
 ## Commit

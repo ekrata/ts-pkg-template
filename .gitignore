@@ -1,0 +1,10 @@
+
+# sst
+.sst
+.turbo
+node_modules
+node_modules/**/*
+services/*
+services
+dist
+dist/*

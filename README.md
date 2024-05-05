@@ -9,6 +9,8 @@ npm i
 npx husky-init
 brew install pre-commit
 pre-commit install
+npm install commitizen -g
+commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
 ## Commit

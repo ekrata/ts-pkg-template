@@ -11,7 +11,6 @@ npm i
 npx husky-init
 brew install pre-commit
 pre-commit install
-brew install commitzen
 
 ```
 
@@ -19,7 +18,7 @@ brew install commitzen
 
 ```bash
 git add .
-cz or git cz
+git commit -m /(?s)(build|ci|docs|feat|fix|perf|refactor|style|test|chore|revert|bump)(\(\S+\))?!?:( [^\n\r]+)((\n\n.*)|(\s*))?$/
 ```
 
 ## Build

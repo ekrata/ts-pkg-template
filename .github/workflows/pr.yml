@@ -30,4 +30,4 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Run tests
-        run: npx vitest --run
+        run: npm run test -- --run
